@@ -16,6 +16,7 @@ function play(){
         }
             
 }
+let score = 0;
 let bird = new Bird();
 let pipe = new Pipe(294,50+200,400)
 document.addEventListener('click', (e) => { bird.flap()})
